@@ -1,0 +1,166 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    color: #ffffff;
+    font-family: Poppins, sans-serif;
+}
+.img-fluid{
+    
+}
+.nav-box{
+    border: 1px solid black;
+    
+}
+.navbar {
+    border: 1px solid blue;
+    background: white;
+    width: auto;
+    height: 100px;
+    position: flex;
+    display: relative;
+    align-items: flex-end;
+    justify-items: flex-end;
+}
+.button-nav{
+    display: flex;
+    position: relative;
+    align-items: center;
+    
+    width: 10%;
+    height: 50px;
+    background:#ff5a5f;
+    border-radius: 12px 12px 12px 12px;
+    text-transform: uppercase;
+    border: none !important;
+    margin-bottom: 1%;
+}
+.logo{
+    border: 1px solid black;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    left: 20%;
+    margin: 1%;
+    transform: scale(1.2);
+}
+.nav-list{
+    border: 1px solid blue;
+    display: flex;
+    position: absolute;
+    gap: 2px;
+    top: 35%;
+    font-size: 35px;
+    justify-content: space-between;
+     background: none;
+     text-decoration: none !important;
+     left: 50%;
+}
+a{
+    text-decoration: none !important;
+    color:#6c757d;
+    font-family: Lato, sans-serif;
+    padding: 1%;
+    font-size: 12px;
+}
+.container-img{
+    background-image: url('https://www.monolithai.com/hubfs/Group_39403_min.png') !important;
+}
+.container-text{
+    /* top left right left */
+    padding-top: 5%;
+    padding-left: 20%;
+    padding-right: 50%;
+    
+}
+.carousel-container {
+    /* border: 10px solid red; */
+    position: relative;
+    width: 50%;
+    height: 100px;
+    overflow: hidden;
+    transform: translateX(30%);
+  }
+  .carousel {
+    /* border: 1px solid yellow; */
+    position: absolute;
+    width: 250%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    animation: carousel-scroll 50s infinite linear ;
+  }
+  .carousel img {
+    /* border: 10px solid green; */
+    position: relative;
+    object-fit: cover;
+    
+  }
+
+  @keyframes carousel-scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  .carousel-container:hover .carousel {
+    animation-play-state: paused;
+  }
+  
+
+h1{
+    font-weight: 400;
+    font-size: 60px;
+}
+p{
+    font-weight: 100;
+    font-size: 20px;
+}
+/* .nav0{
+    position: absolute;
+    display: flex;
+    top: -10px;
+    left: 80%;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+} */
+
+.float{
+    left: 66%;
+}
+.button-container{
+   /* border: 1px solid black; */
+   width: 100%;
+    display: absolute;
+    position: grid;
+    margin: 4%;
+    transform: translateX(-5%);
+}
+.button-style{
+    background: #ff5a5f;
+    display: absolute;
+    position: flex;
+    width: 10%;
+    height: 50px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    border: none !important;
+}
+.inactive{
+    background-color: transparent !important;
+    border: 3px solid #ff5a5f !important;
+}
+.inactive:hover{
+    background-color: #ff5a5f !important;
+    color: black !important;
+}
+.align{
+    margin: 1%;
+    left: 20%;
+}
